@@ -1,0 +1,126 @@
+.root {
+    -fx-background-image: url('images/Temas/escenario2.png');
+    -fx-background-size: cover;
+}
+TextField {
+    -fx-background-color: #faf4d6; /* Fondo blanco */
+    -fx-border-color: #ffcc00; /* Color del borde */
+    -fx-border-width: 3px; /* Grosor del borde */
+    -fx-border-radius: 7px; /* Esquinas redondeadas */
+    -fx-background-radius: 7px;
+    -fx-font-size: 20px; /* Tamaño de fuente */
+    -fx-padding: 5 10; /* Espaciado interno */
+    -fx-pref-width: 250px; /* Ancho preferido */
+    -fx-max-width: 250px; /* Ancho máximo */
+}
+TextField:focused {
+    -fx-border-color: #ff6600; /* Color del borde al enfocar */
+    -fx-background-color: #fbf5c6; /* Fondo al enfocar */
+}
+.gifa{
+    -fx-background-color: transparent;
+    -fx-background-image: url("images/Manos/gifi.gif");
+    -fx-pref-width: 400px;
+    -fx-pref-height: 300px;
+    -fx-background-size: cover; /* La imagen cubrirá todo el botón */
+    -fx-background-repeat: no-repeat; /* No repetir la imagen */
+    -fx-font-size: 16px;
+    -fx-text-fill: transparent; /* Ocultar el texto del botón */
+}
+.pheal{
+    -fx-background-image: url("images/vidas/barra100.png");
+}
+/* Botones */
+.button {
+    -fx-pref-width: 280px;
+    -fx-pref-height: 180px;
+    -fx-background-size: cover; /* La imagen cubrirá todo el botón */
+    -fx-background-position: center; /* Centrar la imagen */
+    -fx-background-repeat: no-repeat; /* No repetir la imagen */
+    -fx-font-size: 16px;
+    -fx-text-fill: transparent; /* Ocultar el texto del botón */
+    -fx-background-color: orange;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 20px;
+}
+.start-button{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 130px;
+    -fx-background-image: url("images/Iconos/startgif.gif");
+    -fx-background-size: 160px 150px;
+    -fx-border-width: 4px;
+    -fx-border-radius: 15px; /* Esquinas redondeadas */
+    -fx-background-position: center; /* Centrar la imagen */
+    -fx-background-repeat: no-repeat; /* No repetir la imagen */
+    -fx-background-radius: 20px;
+}
+.button:hover {
+    -fx-background-color: red; /* Cambia el fondo a rojo en hover */
+    -fx-border-color: white; /* Aplica el borde blanco en hover */
+    -fx-border-width: 3px;
+}
+.paper-button {
+    -fx-background-image: url("images/Manos/papeli.png");
+    -fx-background-size: 170px 160px; /* Tamaño específico del icono */
+    -fx-pref-width: 200px;
+    -fx-pref-height: 150px;
+
+}
+.rock-button {
+    -fx-background-image: url("images/Manos/piedrai.png");
+    -fx-background-size: 170px 160px; /* Tamaño específico del icono */
+    -fx-pref-width: 200px;
+    -fx-pref-height: 150px;
+
+}
+.scissors-button {
+    -fx-background-image: url("images/Manos/tijerai.png");
+    -fx-background-size: 170px 160px; /* Tamaño específico del icono */
+    -fx-pref-width: 200px;
+    -fx-pref-height: 150px;
+
+}
+.next-button {
+    -fx-background-image: url("images/Iconos/next.png");
+    -fx-background-size: 190px 90px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 115px;
+}
+.back-button {
+    -fx-background-image: url("images/Iconos/volver.png");
+    -fx-background-size: 160px 95px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 115px;
+}
+/* Etiquetas */
+.label {
+    -fx-text-fill: #371f1f; /* Color dorado */
+    -fx-background-color: #f4f0b9; /* Fondo blanco */
+    -fx-border-color: #FF8C00; /* Color del borde */
+    -fx-border-width: 4px; /* Grosor del borde */
+    -fx-border-radius: 5px; /* Esquinas redondeadas */
+    -fx-background-radius: 7px;
+    -fx-font-size: 25px; /* Tamaño de fuente */
+    -fx-label-padding: 10px;
+    -fx-font-weight: bold;
+}
+.Image{
+    -fx-background-color: transparent;
+    }
+/* VBox */
+.vbox {
+    -fx-spacing: 15; /* Espaciado entre elementos */
+}
+
+/* Estilo para el título */
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffcc00; /* Color dorado */
+}
+.gif {
+    -fx-background-image: url("images/Iconos/startgif.gif");
+    -fx-alignment: center; /* Esto puede ser redundante en un StackPane */
+    -fx-background-color: transparent; /* Si deseas un fondo transparente */
+}

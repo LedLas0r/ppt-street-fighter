@@ -1,0 +1,63 @@
+.root {
+    -fx-background-image: url('images/Temas/escenario4.png');
+    -fx-background-size: cover;
+    -fx-font-family: Calibri ;
+}
+/* Botones */
+.button {
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-background-color: #ffcc00;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 20px;
+    -fx-pref-width: 175px;
+    -fx-pref-height: 105px;
+    -fx-background-size: cover; /* La imagen cubrirá todo el botón */
+    -fx-background-position: center; /* Centrar la imagen */
+    -fx-background-repeat: no-repeat; /* No repetir la imagen */
+    -fx-text-fill: transparent; /* Ocultar el texto del botón */
+    -fx-translate-y: 50px; /* Desplaza el botón hacia abajo 50px */
+}
+.button:hover {
+    -fx-background-color: red; /* Cambia el fondo a rojo en hover */
+    -fx-border-color: white; /* Aplica el borde blanco en hover */
+    -fx-border-width: 3px;
+}
+.back-button {
+    -fx-background-image: url("images/Iconos/volver.png");
+    -fx-background-size: 160px 90px;
+}
+/* Etiquetas */
+.label {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #c53200; /* Color dorado */
+}
+
+.rankingPVP {
+    -fx-padding: 30px;
+    -fx-background-color: #faf4d6; /* Fondo blanco */
+    -fx-border-color: #ff9900; /* Color del borde */
+    -fx-border-width: 5px; /* Grosor del borde */
+    -fx-border-radius: 7px; /* Esquinas redondeadas */
+    -fx-background-radius: 7px;
+}
+.rankingPVC {
+    -fx-padding: 30px;
+    -fx-background-color: #faf4d6; /* Fondo blanco */
+    -fx-border-color: #ff9900; /* Color del borde */
+    -fx-border-width: 5px; /* Grosor del borde */
+    -fx-border-radius: 7px; /* Esquinas redondeadas */
+    -fx-background-radius: 7px;
+}
+.titulo {
+    -fx-background-image: url("images/Iconos/ranking.png");
+    -fx-pref-width: 600px;
+    -fx-pref-height: 300px;
+    -fx-background-size: cover; /* La imagen cubrirá todo el botón */
+    -fx-background-position: center; /* Centrar la imagen */
+    -fx-background-repeat: no-repeat; /* No repetir la imagen */
+    -fx-font-size: 16px;
+    -fx-text-fill: transparent; /* Ocultar el texto del botón */
+    -fx-background-color: transparent;
+}

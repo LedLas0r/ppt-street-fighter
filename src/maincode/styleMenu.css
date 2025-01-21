@@ -1,0 +1,89 @@
+.root {
+    -fx-background-image: url('images/Temas/street-fighter-v-suzaku-castle-stage.jpg');
+    -fx-background-size: cover;
+}
+
+/* Botones */
+.button {
+    -fx-pref-width: 280px;
+    -fx-pref-height: 180px;
+    -fx-background-size: cover; /* La imagen cubrirá todo el botón */
+    -fx-background-position: center; /* Centrar la imagen */
+    -fx-background-repeat: no-repeat; /* No repetir la imagen */
+    -fx-font-size: 16px;
+    -fx-text-fill: transparent; /* Ocultar el texto del botón */
+    -fx-background-color: orange;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 20px;
+}
+.button:hover {
+    -fx-background-color: red; /* Cambia el fondo a rojo en hover */
+    -fx-border-color: white; /* Aplica el borde blanco en hover */
+    -fx-border-width: 3px;
+}
+.pvp-button {
+    -fx-background-image: url("images/Iconos/dos-jugadores.png");
+    -fx-background-size: 285px 102px; /* Tamaño específico del icono */
+
+}
+
+.pvc-button {
+    -fx-background-image: url("images/Iconos/un-jugador.png");
+    -fx-background-size: 255px 102px; /* Tamaño específico del icono */
+
+}
+
+.ranking-button {
+    -fx-background-image: url("images/Iconos/ranking.png");
+    -fx-background-size: 240px 105px; /* Tamaño específico del icono */
+
+}
+
+.paper-button {
+    -fx-background-image: url("images/Manos/papeli.png");
+    -fx-background-size: 150px 150px; /* Tamaño específico del icono */
+
+}
+.rock-button {
+    -fx-background-image: url("images/Manos/piedrai.png");
+    -fx-background-size: 150px 150px; /* Tamaño específico del icono */
+
+}
+.scissors-button {
+    -fx-background-image: url("images/Manos/tijerai.png");
+    -fx-background-size: 150px 150px; /* Tamaño específico del icono */
+
+}
+/* Etiquetas */
+.label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffcc00; /* Color dorado */
+}
+
+/* Campo de texto */
+.text-field {
+    -fx-background-color: #444444; /* Fondo gris oscuro */
+    -fx-text-fill: #ffffff; /* Texto blanco */
+    -fx-border-color: #d32f2f; /* Borde rojo */
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+}
+/* Estilo para el título */
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffcc00; /* Color dorado */
+}
+.label{
+    -fx-background-image: url("images/Iconos/Rock-paper-estijeras.png");
+    -fx-pref-width: 700px;
+    -fx-pref-height: 400px;
+    -fx-background-size: cover; /* La imagen cubrirá todo el botón */
+    -fx-background-position: center; /* Centrar la imagen */
+    -fx-background-repeat: no-repeat; /* No repetir la imagen */
+    -fx-font-size: 16px;
+    -fx-text-fill: transparent; /* Ocultar el texto del botón */
+    -fx-background-color: transparent;
+}

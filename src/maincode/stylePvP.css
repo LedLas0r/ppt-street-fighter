@@ -1,0 +1,125 @@
+.root {
+    -fx-background-image: url('images/Temas/escenario5.png');
+    -fx-background-size: cover;
+
+}
+.start-button {
+    -fx-background-image: url("images/Iconos/startgif.gif");
+    -fx-alignment: center; /* Esto puede ser redundante en un StackPane */
+    -fx-background-color: transparent; /* Si deseas un fondo transparente */
+}
+TextField {
+    -fx-background-color: #faf4d6; /* Fondo blanco */
+    -fx-border-color: #ffcc00; /* Color del borde */
+    -fx-border-width: 3px; /* Grosor del borde */
+    -fx-border-radius: 7px; /* Esquinas redondeadas */
+    -fx-background-radius: 7px;
+    -fx-font-size: 20px; /* Tamaño de fuente */
+    -fx-padding: 5 10; /* Espaciado interno */
+    -fx-pref-width: 350px; /* Ancho preferido */
+    -fx-max-width: 350px; /* Ancho máximo */
+}
+
+TextField:focused {
+    -fx-border-color: #ff6600; /* Color del borde al enfocar */
+    -fx-background-color: #fbf5c6; /* Fondo al enfocar */
+}
+/* Botones */
+.button {
+    -fx-background-radius: 15px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 130px;
+    -fx-background-size: cover; /* La imagen cubrirá all el botón */
+    -fx-background-position: center; /* Centrar la imagen */
+    -fx-background-repeat: no-repeat; /* No repetir la imagen */
+    -fx-font-size: 16px;
+    -fx-text-fill: transparent; /* Ocultar el texto del botón */
+    -fx-background-color: orange;
+    -fx-border-radius: 15px;
+
+}
+.back-button {
+    -fx-background-image: url("images/Iconos/volver.png");
+    -fx-background-size: 160px 90px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 115px;
+}
+.next-button {
+    -fx-background-image: url("images/Iconos/next.png");
+    -fx-background-size: 190px 95px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 115px;
+}
+.button:hover {
+    -fx-background-color: red; /* Cambia el fondo a rojo en hover */
+    -fx-border-color: white; /* Aplica el borde blanco en hover */
+    -fx-border-width: 3px;
+}
+.paper-buttonIzquierda {
+    -fx-background-image: url("images/Manos/papeli.png");
+    -fx-background-size: 170px 160px; /* Tamaño específico del icono */
+
+}
+.rock-buttonIzquierda {
+    -fx-background-image: url("images/Manos/piedrai.png");
+    -fx-background-size: 170px 160px; /* Tamaño específico del icono */
+
+}
+.scissors-buttonIzquierda {
+    -fx-background-image: url("images/Manos/tijerai.png");
+    -fx-background-size: 170px 160px; /* Tamaño específico del icono */
+
+}
+.paper-buttonDerecha {
+    -fx-background-image: url("images/Manos/papeld.png");
+    -fx-background-size: 170px 160px; /* Tamaño específico del icono */
+
+}
+.scissors-buttonDerecha {
+    -fx-background-image: url("images/Manos/tijerad.png");
+    -fx-background-size: 170px 160px; /* Tamaño específico del icono */
+
+}
+.rock-buttonDerecha {
+    -fx-background-image: url("images/Manos/piedrad.png");
+    -fx-background-size: 170px 160px; /* Tamaño específico del icono */
+
+}
+/* Etiquetas */
+.label {
+    -fx-text-fill: #371f1f; /* Color dorado */
+    -fx-background-color: #f4f0b9; /* Fondo blanco */
+    -fx-border-color: #FF8C00; /* Color del borde */
+    -fx-border-width: 4px; /* Grosor del borde */
+    -fx-border-radius: 5px; /* Esquinas redondeadas */
+    -fx-background-radius: 7px;
+    -fx-font-size: 25px; /* Tamaño de fuente */
+    -fx-label-padding: 10px;
+    -fx-font-weight: bold;
+}
+/* VBox */
+.vbox {
+    -fx-spacing: 15; /* Espaciado entre elementos */
+}
+
+/* Estilo para el título */
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffcc00; /* Color dorado */
+}
+
+.start-button{
+    -fx-background-image: url("images/Iconos/startgif.gif");
+    -fx-background-size: 160px 150px;
+    -fx-border-width: 4px;
+    -fx-border-radius: 15px; /* Esquinas redondeadas */
+    -fx-background-position: center; /* Centrar la imagen */
+    -fx-background-repeat: no-repeat; /* No repetir la imagen */
+    -fx-background-radius: 20px;
+}
+.gif {
+    -fx-background-image: url("images/Iconos/startgif.gif");
+    -fx-alignment: center; /* Esto puede ser redundante en un StackPane */
+    -fx-background-color: transparent; /* Si deseas un fondo transparente */
+}
